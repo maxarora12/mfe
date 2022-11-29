@@ -1,5 +1,8 @@
 name: learn-github-actions
 on: [push]
+defaults:
+  run:
+    working-directory: packages/container
 jobs:
   build:
     runs-on: ubuntu-latest
