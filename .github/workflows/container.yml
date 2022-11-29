@@ -5,11 +5,11 @@ on:
     branches:
       -main
     paths:
-      -'packages/conatiner/**'
+      -'packages/container/**'
 
 defaults:
   run:
-    working-directory: packages/conatiner
+    working-directory: packages/container
 
 jobs:
   build:
